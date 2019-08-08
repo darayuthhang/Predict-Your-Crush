@@ -2,4 +2,4 @@
 
 # Only Work for Mobile App
 
-<a href="https://play.google.com/store/apps/details?id=com.darayuth.loveApp">Find out More here</a>
+<a href="https://play.google.com/store/apps/details?id=com.darayuth.loveApp">Find out More here By Downloading it On Android</a>

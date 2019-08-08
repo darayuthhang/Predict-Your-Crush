@@ -1,0 +1,151 @@
+html{
+	padding: 0;
+	margin: 0;
+}
+body{
+	
+	font-family: "Times New Roman", Times, serif;
+}
+
+.form{
+
+	display: grid;
+	grid-gap: 10px;
+	text-align: center;
+	justify-content: center;
+	margin-top: 60px;
+	margin-right: 30px;
+}
+#heading1{
+	color: red;
+}
+/****heading1container2*/
+#js_h1{
+	background: #E0115F;
+	border: 5px solid #E0115F;
+	padding: 5px;
+	border-radius: 20px;
+}
+#heart{
+	font-size: 600%;
+	color:red;
+}
+label{
+	color:red;
+	font-weight: 20px;
+	font-size: 20px;
+}
+input{
+	border-radius: 20px;
+	font-size: 20px;
+}
+input::placeholder{
+
+}
+
+input::-webkit-input-placeholder{
+	font-size: 15px;
+}
+#btn{
+	background: pink;
+	border: 5px solid pink;
+	outline: none;
+}
+
+
+
+#wrapper{
+
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+#container1{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 20px;
+	justify-items: center;
+}
+#threeDimage{
+	width: 200px;
+	  height: 150px;
+	  display: grid;
+	  perspective: 600px;
+}
+
+li{
+	position: absolute;
+	width: 200px;
+    height: 150px;
+  	background: #E0115F;
+ 	line-height: 200px;
+ 	color: white;
+ 	font-size: 18px;
+  	text-align: center;
+	transform: rotateY(0deg);
+  	list-style: none;
+
+
+ }
+
+
+#p1{
+	position: absolute;
+	color: white;
+	/*background: red;*/
+	bottom: 10px;
+	right: 5px;
+	font-size: 30px;
+	padding: 10px;
+	padding-left: 10px;
+	margin-right: 5px;
+/*	border-radius: 20px;*/
+	/*border-color: red;*/
+}
+
+#p2{
+	position: absolute;
+	color: white;
+	/*background: red;*/
+	bottom: 10px;
+	right: 5px;
+	font-size: 30px;
+	padding: 10px;
+	padding-left: 10px;
+	margin-right: 5px;
+/*	border-radius: 20px;*/
+	/*border-color: red;*/
+}
+
+#p3{
+	position: absolute;
+	color: white;
+	/*background: red;*/
+	bottom: 10px;
+	right: 5px;
+	font-size: 30px;
+	padding: 10px;
+	padding-right: 10px;
+	margin-right: 5px;
+/*	border-radius: 20px;*/
+	/*border-color: red;*/
+}
+
+#theEndMenuAnchorTag{
+	position: absolute;
+	top: 50%;
+	right: 41%;
+	display: grid;
+	border-radius: 20px;
+	text-decoration: none;
+}
+#input-p1{
+	position: absolute;
+	font-size: 20px;
+	bottom: 75%;
+	color: white;
+	border: 10px solid darkblue;
+	background: darkblue;
+}
+

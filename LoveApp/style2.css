@@ -1,0 +1,61 @@
+body{
+    	margin: 0;
+    	padding: 0;
+    	background: violet;
+    	    	
+    }
+    .container{
+    	display: grid;
+    }
+	.header-love{
+		font-size: 50px;
+		margin: 0;
+		position: absolute;
+    	top: 40%;
+    	left: 30%;	
+    	display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 10px;
+		grid-row-gap: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+
+	}
+	a{
+		text-decoration: none;
+	}
+	.header-love h1{
+		font-size: 35px;
+		display: block;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 20px;
+		color: white;
+		cursor: pointer;
+		border: 10px solid purple;
+		border-radius: 20px;
+		background: purple;
+
+	}
+	.header-love h1:hover{
+		background: green;
+		border-color: green;
+	}
+	#description{
+		position: absolute;
+		top: 60%;
+		left: 12%;
+		width: 200px;
+		
+	}
+	#description h1{
+		color: darkblue;
+	}
+	#description p{
+		color: white;
+		font-size: 20px;
+	}
+	
+
+
+	

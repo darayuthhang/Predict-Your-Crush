@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://darayuthhang17@gmail.com/ns/1.0"
+    id          = "com.darayuth.loveApp"
+    versionCode = "16"
+    version     = "2.1.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Predict Your Crush</name>
+
+  <description>
+      The app allows you to predict
+      what you crush is thinking by fill out his or her name
+      and pick the boxes. just for fun!
+  </description>
+  <preference name="android-targetSdkVersion" value="26"/>
+  <author email="darayuthhang17@gmail.com">
+      Darayuth Hang
+  </author>
+  
+</widget>
